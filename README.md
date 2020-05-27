@@ -21,7 +21,7 @@ pip install cookiecutter
 cookiecutter gh:mmngreco/cookiecutter-pyproject
 ```
 
-other way:
+other way (without prompt):
 
 ```
 cookiecutter --no-input \
