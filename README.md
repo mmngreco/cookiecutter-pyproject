@@ -20,3 +20,16 @@
 pip install cookiecutter
 cookiecutter gh:mmngreco/cookiecutter-pyproject
 ```
+
+other way:
+
+```
+cookiecutter --no-input \
+    gh:mmngreco/cookiecutter-pyproject \
+    year=2020 \
+    project_author=mmngreco \
+    project_name=my_lib \
+    project_src=my_lib \
+    project_url=https://github.com/mmngreco/my_lib \
+
+```
