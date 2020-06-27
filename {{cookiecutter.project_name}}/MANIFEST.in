@@ -1,4 +1,7 @@
 include pyproject.toml
+include versioneer.py
+include {{cookiecutter.project_name}}/_version.py
+include src/{{cookiecutter.project_src}}/_version.py
 
 # Include the README
 # include *.md

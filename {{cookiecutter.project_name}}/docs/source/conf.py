@@ -188,12 +188,13 @@ epub_exclude_files = ['search.html']
 
 # If true, `todo` and `todoList` produce output, else they produce nothing.
 todo_include_todos = True
-# <<<  custom ----------------------------------------------------------------
+# -----------------------------------------------------------------------------
+# start customization
 
-# import sys
-# from pathlib import Path
-# PRJ_DIR = str(Path(__file__).parent.parent.parent)
-# sys.path.insert(0, SRC_DIR)
+import sys
+from pathlib import Path
+SRC_DIR = str(Path(__file__).parent.parent.parent)
+sys.path.insert(0, SRC_DIR)
 autosummary_generate = True
 html_theme = 'sphinx_rtd_theme'
 napoleon_use_param = False  # this does not seem to make much difference
@@ -203,4 +204,5 @@ napoleon_google_docstring = False  # google-style docstrings are not allowed
 # napoleon_custom_sections = ['Characteristics', 'Indicators']
 autodoc_member_order = 'alphabetical' # {'alphabetical','groupwise','bysource'}
 
-# ---------------------------------------------------------------- custom >>>
+# end customization
+# -----------------------------------------------------------------------------

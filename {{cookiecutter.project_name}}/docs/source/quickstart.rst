@@ -2,6 +2,6 @@
 Quick Start
 ===========
 
->>> import {{ cookiecutter.project_src}}
+>>> import {{ cookiecutter.project_src }}
 
 
