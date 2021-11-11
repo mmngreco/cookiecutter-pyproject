@@ -10,7 +10,7 @@ with open(path.join(here, 'README.md'), encoding='utf-8') as f:
 setup(
     name='{{ cookiecutter.project_name }}',
     version=versioneer.get_version(),
-    description='{{ cookiecutter.description }}',
+    description='{{ cookiecutter.project_description }}',
     long_description=long_description,
     long_description_content_type='text/markdown',
     url='{{ cookiecutter.project_url }}',
