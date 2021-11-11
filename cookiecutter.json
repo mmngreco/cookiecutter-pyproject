@@ -1,8 +1,9 @@
 {
     "year": "2020",
     "project_author": "mmngreco",
+    "project_description": "Sample project",
     "project_email": "mmngreco@gmail.com",
     "project_name": "my-lib",
     "project_src": "my_lib",
-    "project_url": "https://github.com/mmngreco/my_lib"
+    "project_url": "https://github.com/mmngreco/{{ cookiecutter.project_name }}"
 }
