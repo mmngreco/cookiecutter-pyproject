@@ -57,3 +57,6 @@ share/python-wheels/
 target/
 var/
 wheels/
+.venv
+Session.vim
+.autoenv

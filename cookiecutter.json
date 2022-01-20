@@ -1,9 +1,9 @@
 {
-    "year": "2021",
+    "year": "2022",
     "project_author": "mmngreco",
     "project_description": "Sample project",
     "project_email": "mmngreco@gmail.com",
-    "project_name": "my-lib",
+    "project_name": "lib",
     "project_src": "{{ cookiecutter.project_name | lower | replace('-', '_') }}",
     "project_url": "https://github.com/mmngreco/{{ cookiecutter.project_name }}"
 }
